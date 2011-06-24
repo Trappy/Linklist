@@ -3,12 +3,12 @@
 	<!-- wcf.linkList -->
 	<category name="wcf.linkList">
 		<item name="wcf.linkList.index"><![CDATA[Links]]></item>
-		<item name="wcf.linkList.index.description"><![CDATA[Hier finden Sie eine Sammlung von zahlreichen Links. Sie können auch selbst Links vorstellen oder Links kommentieren.]]></item>
+		<item name="wcf.linkList.index.description"><![CDATA[Auf dieser Seite finden Sie eine Sammlung zahlreicher Links. Sie können auch selbst Links einstellen oder kommentieren.]]></item>
 		<item name="wcf.linkList.statistics"><![CDATA[Statistik]]></item>
 		<item name="wcf.linkList.statistics.details"><![CDATA[{if $statistics.categories == 1}1 Kategorie{else}{#$statistics.categories} Kategorien{/if} - {if $statistics.links == 1}1 Link{else} {#$statistics.links} Links{/if} ({#$statistics.linksPerDay} Links pro Tag) - {if $statistics.comments == 1}1 Kommentar{else}{#$statistics.comments} Kommentare{/if} ({#$statistics.commentsPerDay} Kommentare pro Tag) - {if $statistics.visits == 1}1 Besuch{else}{#$statistics.visits} Besuche{/if}]]></item>
 		<item name="wcf.linkList.link.search.query"><![CDATA[Links durchsuchen]]></item>
 		<item name="wcf.linkList.moderation"><![CDATA[Moderation]]></item>
-		<item name="wcf.linkList.moderation.overview"><![CDATA[Übersicht]]></item>
+		<item name="wcf.linkList.moderation.overview"><![CDATA[Überblick]]></item>
 		<item name="wcf.linkList.moderation.deletedLinks"><![CDATA[Gelöschte Links]]></item>
 		<item name="wcf.linkList.moderation.deletedLinks.list"><![CDATA[Gelöschte Links auflisten]]></item>
 		<item name="wcf.linkList.moderation.deletedLinks.noLinks"><![CDATA[Es sind keine gelöschten Links vorhanden.]]></item>
@@ -39,21 +39,21 @@
 		<item name="wcf.linkList.linkAdd.isSticky.1"><![CDATA[Wichtiger Link]]></item>
 		<item name="wcf.linkList.linkAdd.generalData"><![CDATA[Allgemeine Daten]]></item>
 		<item name="wcf.linkList.linkAdd.subject"><![CDATA[Titel]]></item>
-		<item name="wcf.linkList.linkAdd.url"><![CDATA[URL-Adresse]]></item>
-		<item name="wcf.linkList.linkAdd.url.description"><![CDATA[Geben Sie hier die Adresse des Links ein. Diese sollte mit &raquo;<em>http://</em>&laquo; beginnen.]]></item>
+		<item name="wcf.linkList.linkAdd.url"><![CDATA[Adresse]]></item>
+		<item name="wcf.linkList.linkAdd.url.description"><![CDATA[Geben Sie hier die Adresse (URL) des Links an. Diese sollte mit &raquo;<em>http://</em>&laquo; beginnen.]]></item>
 		<item name="wcf.linkList.linkAdd.shortDescription"><![CDATA[Kurzbeschreibung]]></item>
-		<item name="wcf.linkList.linkAdd.shortDescription.description"><![CDATA[Geben Sie hier eine kurze Beschreibung an, was die Seite anderen Mitgliedern bietet (optional). Eine gute Kurzbeschreibung besteht aus <strong>maximal 500 Zeichen</strong>.]]></item>
+		<item name="wcf.linkList.linkAdd.shortDescription.description"><![CDATA[Beschreiben Sie hier kurz, was die Seite anderen Mitgliedern bietet (optional). Eine gute Kurzbeschreibung besteht aus <strong>maximal 500 Zeichen</strong>.]]></item>
 		<item name="wcf.linkList.linkAdd.text"><![CDATA[Nachricht]]></item>
-		<item name="wcf.linkList.link.add.success.moderation"><![CDATA[Ihr Link wurde erfolgreich hinzugefügt. Bevor er allerdings von allen Benutzern sichtbar ist, muss er von einem Moderator überprüft werden.]]></item>
+		<item name="wcf.linkList.link.add.success.moderation"><![CDATA[Ihr Link wurde erfolgreich hinzugefügt. Bevor er allerdings für alle Benutzer sichtbar ist, muss er von einem Moderator überprüft und, falls keine Beanstandung vorliegt, freigeschaltet werden.]]></item>
 		<item name="wcf.linkList.linkEdit.pageTitle"><![CDATA[Link bearbeiten]]></item>
 		<item name="wcf.linkList.link.menu.link"><![CDATA[Link]]></item>
 		<item name="wcf.linkList.link.menu.comments"><![CDATA[Kommentare]]></item>
 		<item name="wcf.linkList.link.menu.comment.add"><![CDATA[Kommentar hinzufügen]]></item>
 		<item name="wcf.linkList.link.notEverEnabled"><![CDATA[Dieser Link wurde noch nicht von einem Moderator aktiviert.]]></item>
 		<item name="wcf.linkList.link.isDisabled"><![CDATA[Dieser Link wurde von einem Moderator deaktiviert.]]></item>
-		<item name="wcf.linkList.link.isDeleted"><![CDATA[Dieser Link wurde von <a href="index.php?page=User&amp;userID={@$link->deletedByID}">{$link->deletedBy}</a> gelöscht ({@$link->deleteTime|time}).]]></item>
+		<item name="wcf.linkList.link.isDeleted"><![CDATA[Dieser Link wurde von &raquo;<a href="index.php?page=User&amp;userID={@$link->deletedByID}">{$link->deletedBy}</a>&laquo; gelöscht ({@$link->deleteTime|time}).]]></item>
 		<item name="wcf.linkList.category.links.isDeleted"><![CDATA[Dieser Link wurde von einem Moderator gelöscht.]]></item>
-		<item name="wcf.linkList.link.lastVisitors.title"><![CDATA[Letzten Besucher]]></item>
+		<item name="wcf.linkList.link.lastVisitors.title"><![CDATA[Letzte Besucher]]></item>
 		<item name="wcf.linkList.link.generalData"><![CDATA[Allgemeine Daten]]></item>
 		<item name="wcf.linkList.link.author"><![CDATA[Benutzer]]></item>
 		<item name="wcf.linkList.link.guest"><![CDATA[Gast]]></item>
@@ -73,11 +73,11 @@
 		<item name="wcf.linkList.link.comment.add"><![CDATA[Kommentar hinzufügen]]></item>
 		<item name="wcf.linkList.link.comment.add.message"><![CDATA[Nachricht]]></item>
 		<item name="wcf.linkList.link.comment.edit"><![CDATA[Kommentar bearbeiten]]></item>
-		<item name="wcf.linklist.link.commentList.noComments"><![CDATA[Es wurden noch keine Kommentare hinzugefügt.]]></item>
+		<item name="wcf.linklist.link.commentList.noComments"><![CDATA[Es sind keine Kommentare vorhanden.]]></item>
 		<item name="wcf.linkList.link.commentList.show.ipAddress"><![CDATA[IP-Adresse anzeigen]]></item>
 		<item name="wcf.linkList.link.commentList.ipAddressBy"><![CDATA[IP-Adresse von &raquo;{$comment->username}&laquo;:]]></item>
 		<item name="wcf.linkList.link.commentList.lastChangeTime"><![CDATA[Letzte Änderung]]></item>
-		<item name="wcf.linkList.link.comment.delete.sure"><![CDATA[Wollen Sie diesen Kommentar wirklich unwiederruflich löschen?]]></item>
+		<item name="wcf.linkList.link.comment.delete.sure"><![CDATA[Wollen Sie diesen Kommentar wirklich unwiderruflich löschen?]]></item>
 		<item name="wcf.linkList.category.links.recover"><![CDATA[Wiederherstellen]]></item>
 		<item name="wcf.linkList.category.links.enable"><![CDATA[Aktivieren]]></item>
 		<item name="wcf.linkList.category.links.disable"><![CDATA[Deaktivieren]]></item>
@@ -114,16 +114,16 @@
 		<item name="wcf.acp.linkList.category.description"><![CDATA[Beschreibung]]></item>
 		<item name="wcf.acp.linkList.category.allowDescriptionHtml"><![CDATA[HTML im Beschreibungstext erlauben]]></item>
 		<item name="wcf.acp.linkList.category.image"><![CDATA[Spezielles Kategorie-Bild]]></item>
-		<item name="wcf.acp.linkList.category.image.description"><![CDATA[Sie können hier ein spezielles Kategorie-Icon angeben. Das Icon sollte im wcf/icon Ordner sein und die Endung .png verwenden. Wenn Sie z.B. das Icon &raquo;testL.png&laquo; wollen laden Sie es in den Größen S (16x16), M (24x24) und L (48x48) in den wcf/ Ordner und geben hier nur &raquo;<strong>test</strong>&laquo; an.]]></item>
+		<item name="wcf.acp.linkList.category.image.description"><![CDATA[Hier können Sie ein spezielles Kategorie-Icon angeben. Das Icon sollte im wcf/icon Ordner liegen und die Dateiendung .png besitzen. Um z.B. das Icon &raquo;testL.png&laquo; zu nutzen, müssen Sie es in den Größen S (16x16), M (24x24) und L (48x48) in den wcf/icon Ordner hochladen und hier lediglich &raquo;<strong>test</strong>&laquo; angeben.]]></item>
 		<item name="wcf.acp.linkList.category.allowComments"><![CDATA[Kommentare erlauben]]></item>
-		<item name="wcf.acp.linkList.category.allowComments.standard"><![CDATA[Standard <span class="description smallFont light">(Übernimmt die Einstellung, wie sie in den Optionen getätigt wurde)</span>]]></item>
+		<item name="wcf.acp.linkList.category.allowComments.standard"><![CDATA[Standard <span class="description smallFont light">(Übernimmt die Einstellung, die in den Optionen getätigt wurde!)</span>]]></item>
 		<item name="wcf.acp.linkList.category.allowComments.deny"><![CDATA[Verbieten]]></item>
 		<item name="wcf.acp.linkList.category.allowComments.allow"><![CDATA[Erlauben]]></item>
 		<item name="wcf.acp.linkList.category.data.position"><![CDATA[Position der Kategorie]]></item>
 		<item name="wcf.acp.linkList.category.parentID"><![CDATA[Übergeordnete Kategorie]]></item>
-		<item name="wcf.acp.linkList.category.parentID.description"><![CDATA[Wählen Sie hier eine übergeordete Kategorie aus.]]></item>
+		<item name="wcf.acp.linkList.category.parentID.description"><![CDATA[Wählen Sie hier eine übergeordnete Kategorie aus.]]></item>
 		<item name="wcf.acp.linkList.category.position"><![CDATA[Position]]></item>
-		<item name="wcf.acp.linkList.category.position.description"><![CDATA[Geben Sie hier die Reihenfolge an, wonach die Kategorie aufgelistet werden soll.]]></item>
+		<item name="wcf.acp.linkList.category.position.description"><![CDATA[Nach dieser Reihenfolge werden die Kategorien aufgelistet.]]></item>
 		<item name="wcf.acp.linkList.category.permissions.title"><![CDATA[Gruppennamen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.add"><![CDATA[Hinzufügen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.allow"><![CDATA[Zulassen]]></item>
@@ -131,8 +131,8 @@
 		<item name="wcf.acp.linkList.category.permissions.fullControl"><![CDATA[Vollzugriff]]></item>
 		<item name="wcf.acp.linkList.category.permissions.permissionsFor"><![CDATA[Berechtigungen für {$name}]]></item>
 		<item name="wcf.acp.linkList.category.permissions.canViewCategory"><![CDATA[Kann Kategorie sehen]]></item>
-		<item name="wcf.acp.linkList.category.permissions.canEnterCategory"><![CDATA[Kann Kategorie betreten]]></item>
-		<item name="wcf.acp.linkList.category.permissions.canViewLink"><![CDATA[Kann Links sehen/betreten]]></item>
+		<item name="wcf.acp.linkList.category.permissions.canEnterCategory"><![CDATA[Kann Kategorie aufrufen]]></item>
+		<item name="wcf.acp.linkList.category.permissions.canViewLink"><![CDATA[Kann Links sehen/aufrufen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.canAddLink"><![CDATA[Kann Links hinzufügen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.canAddLinkWithoutModeration"><![CDATA[Kann Links ohne Freischaltung hinzufügen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.canEditOwnLink"><![CDATA[Kann Links bearbeiten]]></item>
@@ -144,7 +144,7 @@
 		<item name="wcf.acp.linkList.category.permissions.canDeleteOwnComment"><![CDATA[Kann eigene Kommentare löschen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.canUploadAttachment"><![CDATA[Kann Dateien anhängen]]></item>
 		<item name="wcf.acp.linkList.category.permissions.canDownloadAttachment"><![CDATA[Kann Dateianhänge herunterladen]]></item>
-		<item name="wcf.acp.linkList.category.permissions.canViewAttachmentPreview"><![CDATA[Kann Dateianhangs-Vorschau sehen]]></item>
+		<item name="wcf.acp.linkList.category.permissions.canViewAttachmentPreview"><![CDATA[Kann Dateianhangsvorschau sehen]]></item>
 		<item name="wcf.acp.linkList.category.add.success"><![CDATA[Die neue Kategorie wurde erfolgreich gespeichert.]]></item>
 		<item name="wcf.acp.linkList.category.delete.sure"><![CDATA[Wollen Sie diese Kategorie und alle eingetragenen Daten wirklich löschen?]]></item>
 	</category>
@@ -185,17 +185,16 @@
 
 	<!-- wcf.help.item -->
 	<category name="wcf.help.item">
-		<item name="wcf.help.item.linkList"><![CDATA[Link Sammlung (Linkliste)]]></item>
-		<item name="wcf.help.item.linkList.description"><![CDATA[Nachfolgend finden Sie Erklärungen zu den einzelnen Funktionen der <a href="index.php?page=LinkList">Link Sammlung (Linkliste)</a>.]]></item>
+		<item name="wcf.help.item.linkList"><![CDATA[Linksammlung (Linkliste)]]></item>
+		<item name="wcf.help.item.linkList.description"><![CDATA[Nachfolgend finden Sie Erklärungen zu den einzelnen Funktionen der <a href="index.php?page=LinkList">Linksammlung (Linkliste)</a>.]]></item>
 		<item name="wcf.help.item.linkList.links"><![CDATA[Links]]></item>
-		<item name="wcf.help.item.linkList.links.description"><![CDATA[<p>Wenn Sie auf den Headermenüpunkt &raquo;<a href="index.php?page=LinkList">Links</a>&laquo; klicken, gelangen Sie direkt zur Startseite der Link Sammlung (Linkliste). Dort werden Ihnen zunächst alle Kategorien aufgelistet, auf die Sie klicken können um die Links zu sehen, die sich in dieser Kategorie befinden. Auf der rechten Seite nach einem Kategorienamen finden Sie die Anzahl der Links und die Anzahl der Kommentare. <br /> Direkt unter der Kategorieauflistung finden Sie die Statistik. Diese zeigt Ihnen Daten, wie z.B. die Anzahl der Kategorien, die Anzahl der Links, wie viele Links pro Tag erstellt werden, die Anzahl der Kommentare, wie viele Kommentare pro Tag erstellt wurden und die Anzahl, wie oft alle Links bisher besucht wurden.</p>
-<p>Wenn Sie eine Kategorie aufgerufen haben, finden Sie alle bisher in die Kategorie eingetragenen Links. Dort werden Ihnen kurz und knapp auch die wichtigsten Angaben zu einem Link präsentiert, wie z.B. der Titel des Links, eine kurze Beschreibung, den Namen des Erstellers, die Uhrezeit der letzten Änderung und weitere Fakten (Kommentare, Besuche). Um den Link näher zu betrachten und alle Informationen zu sehen können Sie auf den verlinkten Titel des jeweiligen Links klicken. Wenn Sie das entsprechende Recht zur Erstellung von Links haben, werden Ihnen auf der Seite der Kategorieauflistung zudem zwei &raquo;Link hinzufügen&laquo; angezeigt. Klicken Sie diese, gelangen Sie auf eine weitere Seite, wo Sie einen neuen Link hinzufügen können (nähereres dazu erfahren Sie auch weiter unten). <br />
-Ganz unten auf der Seite finden Sie Einstellungen zur Sortierung. Sie können hier auswählen, nach was die Links aufgelistet/sortiert werden sollen, z.B. nach Titel, Letzte Änderung, Besuche, usw.. Direkt daneben können Sie angeben, ob die Links in ab- oder aufsteigender Reihenfolge gelistet werden sollen. </p>
-<p>Klicken Sie auf einen Link, so wird Ihnen die zentrale Übersicht des Links angezeigt. Dort sehen Sie alles, was zu diesem Link angegeben wurde, z.B. den Nutzer, der den Link hinzugefügt hat, das Hinzufügungsdatum, das Datum der Letzten Änderung, die Anzahl der Besuche, den letzten Besucher und das Datum, usw.. Desweiteren haben Sie hier die Möglichkeit, den Link zu besuchen. Klicken Sie dazu einfach auf einen der zwei Links &raquo;Link besuchen&raquo;. Im Tabmenü können Sie auswählen, ob Sie die zentrale Übersicht des Links oder die Kommentare des Links (siehe unten) sehen wollen. </p>
-<p>Mit nur wenigen Klicks können Sie einen neuen Link hinzufügen. Klicken Sie dazu, wie oben bereits beschrieben, in einer passenden Kategorie auf den Button &raquo;Link hinzufügen&laquo;. Sollte Ihnen dieser Button nicht angezeigt werden, haben Sie nicht das entsprechende Recht einen neuen Link hinzuzufügen (um den Grund zu erfahren können Sie den Administrator kontaktieren). Sind Sie auf der Seite, auf der Sie einen neuen Link hinzufügen können, müssen Sie einige Angaben zu der Seite angeben. Zunächst müssen Sie einen Titel eingeben (es empfiehlt sich der Name der Seite), die URL-Adresse des Links (in folgendem Format: <em>http://</em>) und eine Beschreibung der Seite. Umso ausführlicher diese Beschreibung ausfällt, umso ansprechender wird der Link für die Community. Nehmen Sie sich deshalb ruhig ein paar Minuten Zeit und schreiben Sie eine Beschreibung, um die Community von der Seite zu überzeugen. Weiterhin können Sie optional eine Kurzbeschreibung des Links und Tags eingeben. Anschließend klicken Sie auf &raquo;Absenden&laquo; und der Link wird gespeichert.</p>]]></item>
+		<item name="wcf.help.item.linkList.links.description"><![CDATA[<p>Mit einem Klick auf den Hauptmenüeintrag &raquo;<a href="index.php?page=LinkList">Links</a>&laquo; gelangen Sie zur Startseite der Linksammlung (Linkliste). Dort werden Ihnen zunächst alle Kategorien aufgelistet, in welche Links eingeordnet werden können. Darüber hinaus wird rechts vom Kategorienamen angezeigt, wie viele Links und Kommentare sich in der jeweiligen Kategorie befinden. Um die in einer Kategorie enthaltenen Links sehen zu können, genügt es, die Kategorie über einen Klick aufzurufen.<br /> Unmittelbar unter der Kategorieauflistung finden Sie die Statistik. Diese zeigt Ihnen Daten, wie z.B. die Anzahl der Links und Kommentare, wie viele Links und Kommentare pro Tag erstellt werden oder wie oft alle Links bisher besucht wurden.</p>
+<p>Wenn Sie eine Kategorie aufgerufen haben, finden Sie eine Übersicht aller bisher in dieer Kategorie eingetragenen Links. Bei jedem Eintrag werden Ihnen die wichtigsten Angaben zu dem jeweiligen Link wie zum Beispiel der Linktitel, eine prägnante Beschreibung und die Anzahl der Kommentare präsentiert. Sofern der Administrator Ihnen das Recht, Links einzustellen eingeräumt hat, befinden sich ebenfalls zwei &raquo;Link hinzufügen&laquo;-Buttons auf der Übersichtsseite, über welche Sie zum &raquo;Link hinzufügen&laquo;-Formular gelangst. Nähere Informationen diesbezüglich finden Sie weiter unten. Ein weiterer Bestandteil der Übersichtsseite befindet sich am Seitenende. Über die dortige &raquo;Sortierung&laquo;-Box können die Links der Kategorie nach verschiedenen Kriterien sortiert werden. Sie können sich die Links beispielsweise nach dem Erstellungsdatum oder der Anzahl der Kommentare sortiert anzeigen lassen.</p>
+<p>Über einen Klick auf den Linktitel gelangen Sie zur Detailansicht eines Links, in welcher sämtliche Informationen ersichtlich sind. Neben den allgemeinen Daten wie zum Beispiel die Anzahl der Besuche und Kommentare sowie den Namen des Autors und des letzten Besuchers bietet Ihnen diese Seite die Möglichkeit, den Link zu besuchen, zu kommentieren oder ihn, sofern es Ihrer Meinung nach etwas zu beanstanden gibt, bei der Moderation der Linkliste zu melden.</p>
+<p>Einen eigenen Link hinzuzufügen ist sehr einfach und mit wenigen Klicks erledigt. Nachdem Sie über einen der &raquo;Link hinzufügen&laquo;-Schaltflächen zum &raquo;Link hinzufügen&laquo;-Formular weitergeleitet wurden, ist es erforderlich, dass Sie einige Angaben zu der Seite machen, die sie verlinken möchten. Zu diesen Angaben zählen der Titel des Links (Es empfiehlt sich der Name der Seite.), ihre Adresse (URL), welche mit <em>http://</em> beginnen muss, und eine Beschreibung des verlinkten Internetangebots.Umso ausführlicher diese Beschreibung ausfällt, desto einfacher ist es für die anderen Benutzer der Linkliste, zu erkennen, was sie auf der verlinkten Seite erwartet. Nehmen Sie sich also ruhig einige Minuten Zeit, um eine ansprechende und detaillierte Beschreibung anzufertigen. Neben diesen Pflichtfeldern enthällt das Formular auch noch Felder, in welchen Sie eine Kurzbeschreibung des Links sowie passende Tags angeben können. Diese sind jedoch optional und können auch frei gelassen werden. Anschließend können Sie Ihren Link mit einem Klick auf &raquo;Absenden&laquo; speichern.</p>]]></item>
 		<item name="wcf.help.item.linkList.comments"><![CDATA[Kommentare]]></item>
-		<item name="wcf.help.item.linkList.comments.description"><![CDATA[<p>Klicken Sie, wie bei der Hilfebeschreibung Links bereits beschrieben, bei der zentralen Link-Übersicht auf den Tab &raquo;Kommentare&laquo;, so gelangen Sie direkt zur Auflistung aller Kommentare. Bei jedem Kommentar finden Sie auf der linken Seite Angaben zum Autor, z.B. Name des Benutzers und Avatar. Auf der rechten Seite der Auflistung finden Sie eine blaue Sidebar, die Ihnen nocheinmal die wichtigsten Daten zum aktuellen Link anzeigt. </p>
-Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen der beiden Buttons &raquo;Kommentar hinzufügen&laquo; auf der Auflistung der Kommentare. Sie werden dann zu einer Seite weitergeleitet, auf der Sie den gewünschten Text eingeben können. Im Tab &raquo;Einstellungen&laquo; beim Editor können Sie zudem angeben, ob die Signatur mit angezeigt werden soll. Wenn Sie anschließend auf &raquo;Absenden&laquo; klicken wird der Kommentar gespeichert. Sollten Ihnen die Buttons nicht angezeigt werden, so haben Sie evtl. nicht das Recht zum Erstellen neuer Kommentare. Wenden Sie sich an den Administrator für weitere Fragen.</p>]]></item>
+		<item name="wcf.help.item.linkList.comments.description"><![CDATA[<p>Klicken Sie in der Detailansicht eines Links auf den Tab &raquo;Kommentare&laquo;, so gelangen Sie direkt zur Auflistung aller zu dem Link abgegebenen Kommentare. Auf der linken Seite jedes Kommentars sind Informationen zum Autor wie z.B. der Name oder der Avatar ersichtlich. Auf der rechten Seite der Auflistung finden Sie eine Seitenleiste, in welcher die wichtigsten Informationen zum Link zusammengefasst sind.</p>
+<p>Um einen neuen Kommentar hinzuzufügen, klicken Sie einfach auf &raquo;Kommentar hinzufügen&laquo; bei der Auflistung der Kommentare. Daraufhin werden Sie zu einem Formular weitergeleitet, in dem sie ihren Text eingeben und formatieren können. Der Tab &raquo;Einstellungen&laquo; unterhalb des Textfeldes bietet Ihnen weiterhin vielerlei Einstellungsmöglichkeiten. Mit einem abschließenden Klick auf &raquo;Absenden&laquo; wird Ihr Kommentar gespeichert. Sofern Ihnen der Button &raquo;Kommentar hinzufügen&laquo; nicht angezeigt wird, fehlt Ihnen womöglich das Recht, Links zu kommentieren. Für nähere Informationen wenden Sie sich bitte an den Administrator.</p>]]></item>
 	</category>
 	<!-- /wcf.help.item -->
 
@@ -211,39 +210,39 @@ Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen de
 		<item name="wcf.acp.group.option.category.user.linkList.comments"><![CDATA[Kommentare]]></item>
 		<item name="wcf.acp.group.option.category.user.linkList.comments.description" />
 
-		<item name="wcf.acp.group.option.user.linkList.canViewLinkList"><![CDATA[Kann Link Sammlung (Linkliste) sehen]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canViewLinkList.description"><![CDATA[Mitglieder dieser Benutzergruppe können die &raquo;Startseite&laqo; der Link Sammlung sehen.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canViewLinkList"><![CDATA[Kann Linksammlung (Linkliste) sehen]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canViewLinkList.description"><![CDATA[Mitglieder dieser Benutzergruppe können die &raquo;Startseite&laquo; der Linksammlung sehen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canViewCategory"><![CDATA[Kann Kategorien sehen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canViewCategory.description"><![CDATA[Mitglieder dieser Benutergruppe können Kategorien sehen.]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canEnterCategory"><![CDATA[Kann Kategorien betreten]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canEnterCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe können Kategorien betreten.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canEnterCategory"><![CDATA[Kann Kategorien aufrufen]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canEnterCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe können Kategorien aufrufen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canViewLink"><![CDATA[Kann Links sehen]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canViewLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können einzelne Links sehen und diese betreten.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canViewLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können einzelne Links sehen und diese aufrufen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canAddLink"><![CDATA[Kann Links hinzufügen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canAddLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können neue Links hinzufügen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canAddLinkWithoutModeration"><![CDATA[Kann Links ohne Freischaltung hinzufügen]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canAddLinkWithoutModeration.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links ohne Freischaltung und Prüfung durch einen Moderator hinzufügen.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canAddLinkWithoutModeration.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links ohne Freischaltung durch einen Moderator hinzufügen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canEditOwnLink"><![CDATA[Kann eigene Links bearbeiten]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canEditOwnLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können ihre eigenen Links bearbeiten.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canDeleteOwnLink"><![CDATA[Kannn eigene Links löschen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canDeleteOwnLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können ihre eigenen Links löschen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canDownloadAttachment"><![CDATA[Kann Dateianhänge herunterladen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canDownloadAttachment.description"><![CDATA[Mitglieder dieser Benutzergruppe können Dateianhänge herunterladen.]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canViewAttachmentPreview"><![CDATA[Kann Dateianhangs-Vorschau sehen]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canViewAttachmentPreview.description"><![CDATA[Mitglieder dieser Benutzergruppe können die Vorschau von Dateianhängen sehen.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canViewAttachmentPreview"><![CDATA[Kann Dateianhangsvorschau sehen]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canViewAttachmentPreview.description"><![CDATA[Mitglieder dieser Benutzergruppe können die Vorschauen von Dateianhängen sehen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canUploadAttachment"><![CDATA[Kann Dateianhänge hochladen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canUploadAttachment.description"><![CDATA[Mitglieder dieser Benutzergruppe können eigene Dateianhänge hochladen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.maxAttachmentSize"><![CDATA[Maximale Dateianhangsgröße]]></item>
-		<item name="wcf.acp.group.option.user.linkList.maxAttachmentSize.description"><![CDATA[Geben Sie hier die maximale Größe pro Dateianhang in Byte für diese Benutzergruppe ein.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.maxAttachmentSize.description"><![CDATA[Geben Sie hier die maximale Größe pro Dateianhang in Byte für diese Benutzergruppe an.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen
 ]]></item>
-		<item name="wcf.acp.group.option.user.linkList.allowedAttachmentExtensions.description"><![CDATA[Geben Sie hier die erlaubten Endungen für Dateianhänge für diese Benutzergruppe ein (pro Zeile eine Dateiendung).]]></item>
+		<item name="wcf.acp.group.option.user.linkList.allowedAttachmentExtensions.description"><![CDATA[Geben Sie hier die erlaubten Dateiendungen für Dateianhänge für diese Benutzergruppe ein. Pro Zeile eine Dateiendung.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canViewComment"><![CDATA[Kann Kommentare sehen]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canViewComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können Kommentare eines Links sehen.]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canViewComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können Kommentare zu einem Link sehen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canAddComment"><![CDATA[Kann Kommentare hinzufügen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canAddComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können neue Kommentare zu einem Link hinzufügen.]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canEditOwnComment"><![CDATA[Kann eigene Kommentare bearbeiten]]></item>
-		<item name="wcf.acp.group.option.user.linkList.canEditOwnComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können ihre eigene Kommentare bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.linkList.canEditOwnComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können ihre eigenen Kommentare bearbeiten]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canDeleteOwnComment"><![CDATA[Kann eigene Kommentare löschen]]></item>
 		<item name="wcf.acp.group.option.user.linkList.canDeleteOwnComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können ihre eigenen Kommentare löschen.]]></item>
 		<!-- /user -->
@@ -251,7 +250,7 @@ Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen de
 		<!-- mod -->
 		<item name="wcf.acp.group.option.category.mod.linkList"><![CDATA[Links]]></item>
 		<item name="wcf.acp.group.option.category.mod.linkList.description" />
-		<item name="wcf.acp.group.option.category.mod.linkList.links"><![CDATA[Links (allgemein)]]></item>
+		<item name="wcf.acp.group.option.category.mod.linkList.links"><![CDATA[Links (Allgemein)]]></item>
 		<item name="wcf.acp.group.option.category.mod.linkList.links.description" />
 		<item name="wcf.acp.group.option.category.mod.linkList.comments"><![CDATA[Kommentare]]></item>
 		<item name="wcf.acp.group.option.category.mod.linkList.comments.description" />
@@ -262,16 +261,16 @@ Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen de
 		<item name="wcf.acp.group.option.mod.linkList.canEditLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können alle Links bearbeiten.]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canDeleteLink"><![CDATA[Kann Links löschen]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canDeleteLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links löschen.]]></item>
-		<item name="wcf.acp.group.option.mod.linkList.canDeleteLinkCompletely"><![CDATA[Kann Links komplett löschen]]></item>
-		<item name="wcf.acp.group.option.mod.linkList.canDeleteLinkCompletely.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links komplett und aus dem Papierkorb heraus löschen.]]></item>
-		<item name="wcf.acp.group.option.mod.linkList.canPinLink"><![CDATA[Kann Links als Wichtig markieren]]></item>
-		<item name="wcf.acp.group.option.mod.linkList.canPinLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links als Wichtig markieren.]]></item>
+		<item name="wcf.acp.group.option.mod.linkList.canDeleteLinkCompletely"><![CDATA[Kann Links endgültig löschen]]></item>
+		<item name="wcf.acp.group.option.mod.linkList.canDeleteLinkCompletely.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links, die sich im Papierkorb befinden, endgültig löschen.]]></item>
+		<item name="wcf.acp.group.option.mod.linkList.canPinLink"><![CDATA[Kann Links als wichtig markieren]]></item>
+		<item name="wcf.acp.group.option.mod.linkList.canPinLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links als wichtig markieren.]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canCloseLink"><![CDATA[Kann Links schließen]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canCloseLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links schließen.]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canMoveLink"><![CDATA[Kann Links verschieben]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canMoveLink.description"><![CDATA[Mitglieder dieser Benutzergruppe können Links in eine andere Kategorie verschieben.]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canEditComment"><![CDATA[Kann Kommentare bearbeiten]]></item>
-		<item name="wcf.acp.group.option.mod.linkList.canEditComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können alle Links bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.mod.linkList.canEditComment.description"><![CDATA[Mitglieder dieser Benutzergruppe können alle Kommentare bearbeiten.]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canDeleteComment"><![CDATA[Kann Kommentare löschen]]></item>
 		<item name="wcf.acp.group.option.mod.linkList.canDeleteComment.description"><![CDATA[Mitglieder dieser Benutergruppe können Kommentare unwiderruflich löschen.]]></item>
 		<!-- /mod -->
@@ -281,7 +280,7 @@ Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen de
 		<item name="wcf.acp.group.option.category.admin.linkList.description" />
 
 		<item name="wcf.acp.group.option.admin.linkList.canAddCategory"><![CDATA[Kann Kategorien hinzufügen]]></item>
-		<item name="wcf.acp.group.option.admin.linkList.canAddCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe können neue Kategorien hinzufügen.]]></item>
+		<item name="wcf.acp.group.option.admin.linkList.canAddCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe können Kategorien hinzufügen.]]></item>
 		<item name="wcf.acp.group.option.admin.linkList.canEditCategory"><![CDATA[Kann Kategorien bearbeiten]]></item>
 		<item name="wcf.acp.group.option.admin.linkList.canEditCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe können Kategorien bearbeiten.]]></item>
 		<item name="wcf.acp.group.option.admin.linkList.canDeleteCategory"><![CDATA[Kann Kategorien löschen]]></item>
@@ -293,7 +292,7 @@ Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen de
 	<!-- wcf.acp.option -->
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.linkList"><![CDATA[Links]]></item>
-		<item name="wcf.acp.option.category.linkList.description"><![CDATA[Verwalten Sie hier die Einstellungen der Link Sammlung (Linkliste).]]></item>
+		<item name="wcf.acp.option.category.linkList.description"><![CDATA[Verwalten Sie hier die Einstellungen der Linksammlung (Linkliste).]]></item>
 		<item name="wcf.acp.option.category.linkList.category"><![CDATA[Kategorien]]></item>
 		<item name="wcf.acp.option.category.linkList.category.description" />
 		<item name="wcf.acp.option.category.linkList.link"><![CDATA[Links]]></item>
@@ -301,44 +300,44 @@ Um einen neuen Kommentar hinzufügen zu können klicken Sie einfach auf einen de
 		<item name="wcf.acp.option.category.linkList.comment"><![CDATA[Kommentare]]></item>
 		<item name="wcf.acp.option.category.linkList.comment.description" />
 		
-		<item name="wcf.acp.option.module_linkList"><![CDATA[Link Sammlung (Linkliste)]]></item>
-		<item name="wcf.acp.option.module_linkList.description"><![CDATA[Aktiviert die Funktion zum Sammeln und Verwalten von Links.]]></item>
+		<item name="wcf.acp.option.module_linkList"><![CDATA[Linksammlung (Linkliste)]]></item>
+		<item name="wcf.acp.option.module_linkList.description"><![CDATA[Aktiviert die Möglichkeit, Links zu sammeln und zu verwalten.]]></item>
 		
 		<item name="wcf.acp.option.profile_show_last_linkList_links"><![CDATA[Letzte Links eines Benutzers im Profil anzeigen]]></item>
 		<item name="wcf.acp.option.profile_show_last_linkList_links.description"><![CDATA[Sollen die letzten 5 Links eines Benutzers im Profil angezeigt werden?]]></item>
 		<item name="wcf.acp.option.linkList_category_links_per_page"><![CDATA[Links pro Seite]]></item>
-		<item name="wcf.acp.option.linkList_category_links_per_page.description"><![CDATA[Geben Sie hier an, wie viele Links auf einer Seite dargestellt werden sollen.]]></item>
+		<item name="wcf.acp.option.linkList_category_links_per_page.description"><![CDATA[Geben Sie hier an, wie viele Links auf einer Seite angezeigt werden sollen.]]></item>
 		<item name="wcf.acp.option.linkList_category_default_sort_field"><![CDATA[Sortierung]]></item>
 		<item name="wcf.acp.option.linkList_category_default_sort_field.description"><![CDATA[Geben Sie hier an, wonach Links standardmäßig sortiert werden sollen.]]></item>
 		<item name="wcf.acp.option.linkList_category_default_sort_order"><![CDATA[Sortierungsreihenfolge]]></item>
 		<item name="wcf.acp.option.linkList_category_default_sort_order.description"><![CDATA[Geben Sie hier an, in welcher Reihenfolge Links angezeigt werden sollen.]]></item>
 		<item name="wcf.acp.option.linkList_link_enable_recycle_bin"><![CDATA[Papierkorb für Links aktivieren]]></item>
-		<item name="wcf.acp.option.linkList_link_enable_recycle_bin.description"><![CDATA[Wenn Links gelöscht werden landen diese zunächst in einem virtuellen Papierkorb, woraus sie jederzeit wiederhergestellt werden können.]]></item>
+		<item name="wcf.acp.option.linkList_link_enable_recycle_bin.description"><![CDATA[Wenn Links gelöscht werden, landen diese zunächst in einem virtuellen Papierkorb. Diese können dann jederzeit wiederhergestellt werden. Der Papierkorb wird nach einer bestimmten Zeit automatisch geleert.]]></item>
 		<item name="wcf.acp.option.linkList_link_empty_recycle_bin_cycle"><![CDATA[Papierkorb automatisch entleeren]]></item>
 		<item name="wcf.acp.option.linkList_link_empty_recycle_bin_cycle.description"><![CDATA[Geben Sie hier an, nach wievielen Tagen Links automatisch aus dem Papierkorb gelöscht werden sollen. Tragen Sie &raquo;0&laquo; ein, um die automatische Löschung gänzlich zu deaktivieren.]]></item>
 		<item name="wcf.acp.option.linkList_activity_points_per_link"><![CDATA[Aktivitätspunkte pro Link]]></item>
-		<item name="wcf.acp.option.linkList_activity_points_per_link.description"><![CDATA[Geben Sie hier an, wieviele Aktivitätspunkte ein Benutzer bei der Erstellung eines neuen Links erhalten soll.]]></item>
-		<item name="wcf.acp.option.linkList_link_show_sidebar"><![CDATA[Sidebar anzeigen]]></item>
-		<item name="wcf.acp.option.linkList_link_show_sidebar.description"><![CDATA[Soll die rechte Sidebar mit Informationen zum Link auf der Link-Übersichts-Seite angezeigt werden?]]></item>
-		<item name="wcf.acp.option.linkList_link_show_lastVisitors"><![CDATA[Letzten Besucher eines Links anzeigen]]></item>
-		<item name="wcf.acp.option.linkList_link_show_lastVisitors.description"><![CDATA[Sollen die letzten Besucher eines Links in der Sidebar eines Links angezeigt werden?]]></item>
-		<item name="wcf.acp.option.linkList_link_show_facebook_likeButton"><![CDATA[Gefällt mir (Facebook)-Button anzeigen]]></item>
-		<item name="wcf.acp.option.linkList_link_show_facebook_likeButton.description"><![CDATA[Soll der "Gefällt mir" Button von Facebook unter jedem Link angezeigt werden?]]></item>
+		<item name="wcf.acp.option.linkList_activity_points_per_link.description"><![CDATA[Anzahl der Punkte, die ein Benutzer für das Erstellen eines Links erhält]]></item>
+		<item name="wcf.acp.option.linkList_link_show_sidebar"><![CDATA[Seitenleiste anzeigen]]></item>
+		<item name="wcf.acp.option.linkList_link_show_sidebar.description"><![CDATA[Soll auf der Übersichtsseite eines Links rechts eine Seitenleiste mit Informationen zum Link angezeigt werden?]]></item>
+		<item name="wcf.acp.option.linkList_link_show_lastVisitors"><![CDATA[Letzte Besucher anzeigen]]></item>
+		<item name="wcf.acp.option.linkList_link_show_lastVisitors.description"><![CDATA[Sollen die letzten Besucher eines Links in der Seitenleiste angezeigt werden?]]></item>
+		<item name="wcf.acp.option.linkList_link_show_facebook_likeButton"><![CDATA["Gefällt mir"-Button anzeigen]]></item>
+		<item name="wcf.acp.option.linkList_link_show_facebook_likeButton.description"><![CDATA[Soll der "Gefällt mir"-Button von Facebook unter jedem Link eingebunden werden?]]></item>
 		<item name="wcf.acp.option.linkList_enable_comments"><![CDATA[Kommentare erlauben]]></item>
 		<item name="wcf.acp.option.linkList_enable_comments.description"><![CDATA[Soll es Benutzern möglich sein, Links zu kommentieren?]]></item>
 		<item name="wcf.acp.option.linkList_commentList_comments_per_page"><![CDATA[Kommentare pro Seite]]></item>
-		<item name="wcf.acp.option.linkList_commentList_comments_per_page.description"><![CDATA[Geben Sie hier an, wie viele Kommentare auf einer Seite dargestellt werden sollen.]]></item>
-		<item name="wcf.acp.option.linkList_commentList_show_sidebar"><![CDATA[Sidebar bei Kommentarauflistung anzeigen]]></item>
-		<item name="wcf.acp.option.linkList_commentList_show_sidebar.description"><![CDATA[Soll die rechte Sidebar mit Informationen zum Link auch auf der Seite der Kommentarauflistung angezeigt werden?]]></item>
+		<item name="wcf.acp.option.linkList_commentList_comments_per_page.description"><![CDATA[Geben Sie hier an, wie viele Kommentare auf einer Seite angezeigt werden sollen.]]></item>
+		<item name="wcf.acp.option.linkList_commentList_show_sidebar"><![CDATA[Seitenleiste bei Kommentarauflistung anzeigen]]></item>
+		<item name="wcf.acp.option.linkList_commentList_show_sidebar.description"><![CDATA[Soll die Seitenleiste mit Informationen zum Link auch in der Kommentarauflistung angezeigt werden?]]></item>
 		<item name="wcf.acp.option.linkList_commentList_show_signature"><![CDATA[Signatur anzeigen]]></item>
-		<item name="wcf.acp.option.linkList_commentList_show_signature.description"><![CDATA[Soll die Signatur bei Kommentaren angezeigt werden?]]></item>
+		<item name="wcf.acp.option.linkList_commentList_show_signature.description"><![CDATA[Soll bei Kommentaren die Signatur des Benutzers angezeigt werden?]]></item>
 		<item name="wcf.acp.option.linkList_activity_points_per_comment"><![CDATA[Aktivitätspunkte pro Kommentar]]></item>
-		<item name="wcf.acp.option.linkList_activity_points_per_comment.description"><![CDATA[Geben Sie hier an, wieviele Aktivitätspunkte ein Benutzer bei der Erstellung eines neuen Kommentars erhalten soll.]]></item>
+		<item name="wcf.acp.option.linkList_activity_points_per_comment.description"><![CDATA[Anzahl der Punkte, die ein Benutzer für das Erstellen eines Kommentars erhält]]></item>
 	</category>
 	<!-- /wcf.acp.option -->
 	
 	<category name="wcf.acp.counterUpdate">
-		<item name="wcf.acp.counterUpdate.type.linkListLinkComment"><![CDATA[Kommentare (Link Sammlung)]]></item>
-		<item name="wcf.acp.counterUpdate.type.linkListCategory"><![CDATA[Kategorien (Link Sammlung)]]></item>
+		<item name="wcf.acp.counterUpdate.type.linkListLinkComment"><![CDATA[Kommentare (Linksammlung)]]></item>
+		<item name="wcf.acp.counterUpdate.type.linkListCategory"><![CDATA[Kategorien (Linksammlung)]]></item>
 	</category>
 </language>
